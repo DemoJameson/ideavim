@@ -1,3 +1,16 @@
+Deprecated! No need to use this modified version of the plugin. Just create ~/.ideavimrc file with the following lines
+=======
+    nnoremap <S-Left> :action EditorLeftWithSelection<CR>
+    nnoremap <S-Right> :action EditorRightWithSelection<CR>
+    nnoremap <S-Up> :action EditorUpWithSelection<CR>
+    nnoremap <S-Down> :action EditorDownWithSelection<CR>
+
+    inoremap <S-Left> <C-O>:action EditorLeftWithSelection<CR>
+    inoremap <S-Right> <C-O>:action EditorRightWithSelection<CR>
+    inoremap <S-Up> <C-O>:action EditorUpWithSelection<CR>
+    inoremap <S-Down> <C-O>:action EditorDownWithSelection<CR>
+
+
 IdeaVim
 =======
 
